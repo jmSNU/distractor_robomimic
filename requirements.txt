@@ -1,0 +1,21 @@
+# core
+numpy==1.23.5
+h5py==3.8.0
+
+# pytorch (robomimic dependency)
+torch==2.0.1
+torchvision==0.15.2
+
+# robomimic stack
+robomimic==0.3.0
+robosuite==1.4.1
+
+# mujoco
+mujoco==2.3.7
+mujoco-py==2.1.2.14
+
+# misc
+tqdm==4.66.1
+
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/jm/.mujoco/mujoco210/bin
+# export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia
